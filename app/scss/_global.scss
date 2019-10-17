@@ -77,6 +77,8 @@ overflow-x: hidden;
 .breadcrumbs{
     &__inner{
         padding: 45px 0px 40px;
+        overflow: hidden;
+        width: 1200px;
     }
     &__list{
         li{
@@ -114,4 +116,7 @@ overflow-x: hidden;
         color: $green;
         font-size: 14px;
     }
+}
+#modal{
+    display: none;
 }
